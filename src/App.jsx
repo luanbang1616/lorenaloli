@@ -101,7 +101,7 @@ function App() {
           className="logo"
           whileHover={{ scale: 1.05 }}
         >
-          <img src="/11405828.png" alt="Logo" className="logo-img" />
+          <img src="./11405828.png" alt="Logo" className="logo-img" />
         </motion.div>
         <ul className="nav-links">
           {['home', 'about', 'services', 'testimonials', 'book', 'contact'].map((item) => (
@@ -197,7 +197,7 @@ function App() {
             >
               <div className="image-frame">
                 <div className="image-placeholder">
-                  <img src="/lorena.jpg" alt="Lorena Lolli" className="lorena-photo" />
+                  <img src="./lorena.jpg" alt="Lorena Lolli" className="lorena-photo" />
                 </div>
               </div>
             </motion.div>
@@ -348,7 +348,7 @@ function App() {
               transition={{ duration: 0.6 }}
             >
               <div className="book-img-container">
-                <img src="/libro lorena.png" alt="Tu Vida Entre Ángeles" className="book-img" />
+                <img src="./libro lorena.png" alt="Tu Vida Entre Ángeles" className="book-img" />
               </div>
             </motion.div>
             <motion.div 
@@ -408,7 +408,7 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <div className="footer-logo">
-              <img src="/11405828.png" alt="Logo" className="footer-logo-img" />
+              <img src="./11405828.png" alt="Logo" className="footer-logo-img" />
             </div>
             <div className="social-icons">
               <a href={socialLinks.facebook} target="_blank" rel="noopener noreferrer" className="social-icon facebook" aria-label="Facebook">
